@@ -1,0 +1,5 @@
+[
+ {"name":"Presentación / demostración","config":{"ssid":"WiFi Gratis","title":"Acceso Wi-Fi","campaign":"Demo de concientización","location":"Sala de presentación","identifierMode":"campaign","durationMin":15,"channel":6}},
+ {"name":"Evento / visitantes","config":{"ssid":"Evento_WiFi","title":"Bienvenido al evento","campaign":"Ejercicio visitantes","location":"Recepción","identifierMode":"campaign","durationMin":30,"channel":1}},
+ {"name":"Recorrido por edificio","config":{"ssid":"Guest_Free_WiFi","title":"Acceso de invitados","campaign":"Ejercicio presencial","location":"Piso por definir","identifierMode":"campaign","durationMin":15,"channel":11}}
+]

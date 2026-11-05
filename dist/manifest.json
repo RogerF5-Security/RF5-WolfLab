@@ -1,0 +1,32 @@
+{
+  "project": "RF5-WolfLab-C3",
+  "version": "1.0.2",
+  "chip": "esp32c3",
+  "flashMinBytes": 4194304,
+  "files": [
+    {
+      "file": "bootloader.bin",
+      "offset": "0x0",
+      "size": 12464,
+      "sha256": "551199f81b3cc7d8dee7f7ec71679c499780a94aed306c39fda6351587918f01"
+    },
+    {
+      "file": "partitions.bin",
+      "offset": "0x8000",
+      "size": 3072,
+      "sha256": "1ae446228d79cf83a4b83de41c33d1e01dc21a3557149d7da90fbcbfc303311d"
+    },
+    {
+      "file": "boot_app0.bin",
+      "offset": "0xe000",
+      "size": 8192,
+      "sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"
+    },
+    {
+      "file": "firmware.bin",
+      "offset": "0x10000",
+      "size": 824576,
+      "sha256": "443c7115efd90b6313cc8ab84801634059e102b08a239b93602ca369389ddb2f"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "project": "RF5-WolfLab-C3",
+  "version": "1.0.3",
+  "generatedUtc": "2026-11-05T00:15:40.821620+00:00",
+  "firmware": {
+    "version": "1.0.2",
+    "compiled": true,
+    "compilationSource": "User normal PowerShell: COMPILAR.cmd SUCCESS, 44.90 seconds; output images independently checked in agent session.",
+    "platformio": "6.1.19",
+    "platform": "espressif32 6.12.0",
+    "framework": "Arduino ESP32 2.0.17",
+    "toolchain": "riscv32-esp 8.4.0+2021r2-patch5",
+    "staticRamBytes": 56372,
+    "applicationSizeBytes": 795306,
+    "imageSizeBytes": 824576,
+    "imageChipId": 5,
+    "flashMode": "DIO",
+    "flashFrequency": "40MHz",
+    "flashMinimumBytes": 4194304,
+    "imageChecksumVerified": true,
+    "imageValidationHashVerified": true,
+    "partitionBoundsVerified": true,
+    "segmentManifestSha256Verified": true,
+    "installerRejectsPreviousImage": true,
+    "physicalBootVerified": false
+  },
+  "tests": {
+    "unitTestsPassed": 19,
+    "browser": {
+      "passed": true,
+      "checks": [
+        "SSID change",
+        "pause/start",
+        "private toggle",
+        "CSV export",
+        "anonymous wall",
+        "mobile overflow",
+        "no JS exceptions"
+      ]
+    },
+    "javascriptSyntaxPassed": true
+  },
+  "hardware": {
+    "agentUsbWriteVerified": false,
+    "userReportedPortalFlow": true
+  },
+  "case": {
+    "format": "OpenSCAD",
+    "status": "Concepto parametrico; medidas y ajuste fisico no verificados"
+  },
+  "panelVersion": "1.0.3",
+  "usbPatch": {
+    "unitTestsPassed": 17,
+    "lostFirstReplyTestPassed": true,
+    "prefixedFrameTestPassed": true,
+    "commandsNotReplayedTestPassed": true,
+    "physicalConnectionVerified": false,
+    "updatedUtc": "2026-11-04T21:48:03.884013+00:00"
+  },
+  "sourceFix": {
+    "networkBeforeSockets": true,
+    "httpRestartLifecycleCorrected": true,
+    "unitTestsPassed": 18,
+    "physicalValidation": false,
+    "updatedUtc": "2026-11-04T21:58:55.934529+00:00"
+  },
+  "presentationRestart": {
+    "usesExistingFirmware": "1.0.2",
+    "newFirmwareRequired": false,
+    "recordsAndScenarioPreservedTestPassed": true,
+    "browser": {
+      "passed": true,
+      "recordsPreserved": true,
+      "ssidPreserved": true,
+      "buttonWorks": true,
+      "mobileOverflow": false,
+      "javascriptErrors": []
+    },
+    "physicalPhoneRepeatVerified": false
+  },
+  "publication": {
+    "sourceCheckpoint": "panel 1.0.3 / firmware 1.0.2",
+    "latestLocalArtworkAndStlSynced": false
+  }
+}
